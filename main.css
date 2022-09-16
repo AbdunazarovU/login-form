@@ -1,0 +1,41 @@
+/* GLOBAL STYLE */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+.container{
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.wrapper-left{
+  padding: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-image: url(https://cdn.dribbble.com/users/118246/screenshots/5343519/wifi.gif);
+  background-size: cover;
+}
+.right h2{
+  margin-bottom: -10px;
+}
